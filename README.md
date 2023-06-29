@@ -21,10 +21,9 @@ CSS3: To style and visually enhance the design, ensuring an aesthetically pleasi
 JavaScript: To implement interactive elements and enhance the website's functionality.
 Responsive Design: The web page will be designed and optimized to provide an optimal viewing experience across different devices and screen sizes.
 
-# License
-# This web page repository is released under the MIT License. Feel free to use, modify, and distribute the code, subject to the terms and conditions outlined in the license.
+
 
 Acknowledgments
 Special thanks to the Rainbow Donuts team for their cooperation and support in bringing this web page to life. Your dedication to delivering exceptional baked goods has been a true inspiration.
 
-Let's make the Rainbow Donuts Bakery web page a delightful online destination for donut enthusiasts near and far!
+
