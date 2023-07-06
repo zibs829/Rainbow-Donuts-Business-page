@@ -42,13 +42,13 @@ a {
 }
 
 .container-1 {
-    /*display: flex;
-    justify-content: center;
-    background-color: #9ddcdc; */
     position: relative;
     width: 100%;
     height: 0;
     padding-bottom: 50%; /* Creates a square aspect ratio, adjust as needed */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   
   .container-1 img {
@@ -58,41 +58,43 @@ a {
     object-fit: cover;
 }
 
-.content-container-1 {
+
+
+.message-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    margin-bottom: 100px; 
-    padding: 30px 300px;
+    color:#333333;
+    font-weight: bold;
+    
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
 }
 
-.left-container {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 300px;
-    flex: 1;
-}
-
-.h2 {
-    font-size: 48px;
+.welcome-message-container {
+    font-size: 200px;
     font-weight: extra-bold;
-    color:#F9FAF8;
+    color: #333333;
 }
 
 .p {
-    font-size: 18px;
+    font-size: 20px;
     inline-size: min-content;
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #9ddcdc;
     color:#F9FAF8;
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
-    padding: 4px 16px; 
+    padding: 4px 16px;
+
 }
 
 
